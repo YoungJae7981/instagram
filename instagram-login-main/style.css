@@ -185,13 +185,100 @@ button:disabled{
     margin: 0 18px;
 }
 
+.btn-fb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
 
-
+.btn-fb span{
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--fb-color);
+}
 
 .btn-fb img{
-    width: 30px;
+    width: 16px;
+    margin-right: 8px;
+}
+
+
+.forgot-pw{
+    display: block;
+    font-size: 12px;
+    margin-top: 12px;
+    text-align: center;
+    cursor: e-resize;
+    color: var(--a-color);
 }
 
 .links{
     display: flex;
+}
+
+.join-box{
+    padding: 22px;
+}
+.join-box p{
+    font-size: 14px;
+    text-align: center;
+}
+
+.join-box a{
+    font-weight: bold;
+    color: var(--btn-bg);
+}
+
+.app-download {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-download p {
+    font-size: 14px;
+    text-align: center;
+    margin: 10px;
+}
+
+.store-link {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.store-link a img {
+    height: 40px;
+}
+
+.store-link a:nth-child(1) {
+    margin-right: 8px;
+}
+
+footer {
+    padding-top: 24px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.links a {
+    color: var(--txt-second-color);
+    font-size: 12px;
+    margin: 0 8px;
+}
+
+.copyright {
+    padding: 12px 0;
+    color: var(--txt-second-color);
+    font-size: 13px;
+    text-align: center;
 }
